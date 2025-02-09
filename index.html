@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <title>JS Template | Special</title>
+</head>
+
+<body>
+    <div class="scroller"></div>
+    <!-- Start Settings Box -->
+    <div class="settings-box">
+        <div class="box">
+            <div class="gear">
+                <i class="fa-solid fa-gear icon"></i>
+            </div>
+            <div class="image">
+                <img src="imgs/settings.jpg" alt="">
+            </div>
+            <div class="settings-section">
+                <div class="options">
+                    <h2>Display</h2>
+                    <div class="theme">
+                        <div class="text">
+                            <i class="fa-solid fa-palette"></i>
+                            <h3>THEME</h3>
+                        </div>
+                        <div class="colors">
+                            <div class="aqua color active" data-color="#24b6b9">
+                            </div>
+                            <div class="green color" data-color="#008935">
+                            </div>
+                            <div class="blue color" data-color="#03a9f4">
+                            </div>
+                            <div class="red color" data-color="#e91e63">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="background option">
+                        <p>Landing Change</p>
+                        <div class="switch for-background">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                    <div class="bullets option">
+                        <p>Nav Bullets</p>
+                        <div class="switch for-bullets">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                    <div class="appearance option">
+                        <p class="mode">Dark Mode <span>(Off)</span></p>
+                        <div class="switch for-dark">
+                            <div class="circle circle-light"></div>
+                        </div>
+                    </div>
+                    <div class="reset">
+                        <span>Reset Settings</span>
+                    </div>
+                    <h2>Menu</h2>
+                    <div class="menu">
+                        <div class="first">
+                            <a href="#offers"><i class="fa-solid fa-tags"></i><span>Offers</span></a>
+                        </div>
+                        <div class="second">
+                            <a href="#timeline"><i class="fa-solid fa-ranking-star"></i><span>Best Players</span></a>
+                        </div>
+                        <div class="third">
+                            <a href="#review"><i class="fa-solid fa-users-rectangle"></i><span>Games Reviews</span></a>
+                        </div>
+                        <div class="fourth">
+                            <a href="#features"><i class="fa-solid fa-award"></i><span>Features</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Settings Box -->
+    <!-- Start Navigation Bullets -->
+    <div class="nav-bullets">
+        <div class="bullet" data-section=".landing" data-text="Home"></div>
+        <div class="bullet" data-section=".about-us" data-text="About"></div>
+        <div class="bullet" data-section=".categories" data-text="Categories"></div>
+        <div class="bullet" data-section=".offers" data-text="Offers"></div>
+    </div>
+    <!-- End Navigation Bullets -->
+    <!-- Start Landing -->
+    <div class="landing" id="home">
+        <!-- Start Header -->
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <a href="#"><img src="imgs/logo.jpg" alt=""></a>
+                </div>
+                <div class="text">
+                    <ul class="links">
+                        <li><a href="#home" class="active">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#offers">Offers</a></li>
+                        <li><a href="#contact">Help</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- End Header -->
+        <div class="content">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="text">
+                    <h1>Start Your Legacy Today.</h1>
+                    <p>We Are <span>Gamers</span>, Here To Provide The Best Games And Sales You Need To Get Started!</p>
+                </div>
+                <div class="link">
+                    <a href="#offers">Offers</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Landing -->
+    <!-- Start About Us -->
+    <div class="about-us" id="about">
+        <div class="container">
+            <h2>Who Are We ?</h2>
+            <div class="info">
+                <div class="one">
+                    <img src="imgs/about-01.jpg" alt="">
+                    <h3>Community</h3>
+                    <p>We believe that great content should speak for itself and we take pride in helping all gamers to
+                        play best games with amazing discounts, it's at the core of everything we do.</p>
+                </div>
+                <div class="two">
+                    <img src="imgs/about-02.jpg" alt="">
+                    <h3>Grouth</h3>
+                    <p>The creative games are not everywhere, there must be a place for them to be shown, we're
+                        committed to creating a platform that has best games that challenge you to be greater.</p>
+                </div>
+                <div class="three">
+                    <img src="imgs/about-03.jpg" alt="">
+                    <h3>Recognition</h3>
+                    <p>You work hard as a player to gather trophies, we know the importance of being recognized for your
+                        skills, we're building ways to ensure our players get the recognition they deserve.</p>
+                </div>
+                <div class="four">
+                    <img src="imgs/about-04.jpg" alt="">
+                    <h3>Home</h3>
+                    <p>We believe that quality in a service or product is not what we put into it, is what the customer
+                        gets out of it, so we are doing our best to make you feel that you're in your home.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End About Us -->
+    <!-- Start Categories -->
+    <div class="categories" id="categories">
+        <div class="container">
+            <h2>Top-Rated Categories</h2>
+            <div class="category-box">
+                <h3>Action</h3>
+                <div class="progress"><span style="width: 0%;" data-text="88%"></span></div>
+            </div>
+            <div class="category-box">
+                <h3>Adventure</h3>
+                <div class="progress"><span style="width: 0%;" data-text="92%"></span></div>
+            </div>
+            <div class="category-box">
+                <h3>Fighting</h3>
+                <div class="progress"><span style="width: 0%;" data-text="96%"></span></div>
+            </div>
+            <div class="category-box">
+                <h3>Shooting</h3>
+                <div class="progress"><span style="width: 0%;" data-text="90%"></span></div>
+            </div>
+        </div>
+    </div>
+    <!-- End Categories -->
+    <!-- Start Offers -->
+    <div class="offers" id="offers">
+        <div class="container">
+            <h2>Offers</h2>
+            <div class="offers-list">
+                <div class="offer offer-1">
+                    <div class="image">
+                        <img src="imgs/offers-1.png" alt="">
+                        <div class="discount"><span style="width: 0%;" data-text="40%"></span></div>
+                    </div>
+                    <div class="text">
+                        <div class="price">
+                            <span class="old">99.99$</span>
+                            <span class="new">59.99$</span>
+                        </div>
+                        <span data-text="Razer Naga V2 Pro Wireless Gaming Mouse
+                        - Interchangeable Side Plate w/ 2, 6, 12 Button Configurations,
+                        Focus+ 20K DPI Optical Sensor, Fastest Gaming Mouse Switch,
+                        Chroma RGB Lighting - Black, Green, Pink,
+                        Absolute Adaptability and Control: This mouse comes with a set of 12,
+                        6 and 2-button magnetic side plates.
+                        allowing you adapt to any game genre with control of up to 19+1 programmable.">Razer
+                            Naga V2 Pro</span>
+                    </div>
+                </div>
+                <div class="offer offer-2">
+                    <div class="image">
+                        <img src="imgs/offers-2.png" alt="">
+                        <div class="discount"><span style="width: 0%;" data-text="50%"></span></div>
+                    </div>
+                    <div class="text">
+                        <div class="price">
+                            <span class="old">79.99$</span>
+                            <span class="new">39.99$</span>
+                        </div>
+                        <span data-text="G2000 Gaming Headset,
+                            Surround Stereo Gaming Headphones with Noise Cancelling Mic,
+                            LED Light & Soft Memory Earmuffs, Works with Xbox One, PS4,
+                            Nintendo Switch, PC Mac Computer Games -Blue, Wired,
+                            High precision 50mm magnetic neodymium driver,
+                            bring you vivid sound field, sound clarity,
+                            sound shock feeling, capable of various games.">G2000
+                            Gaming Headset</span>
+                    </div>
+                </div>
+                <div class="offer offer-3">
+                    <div class="image">
+                        <img src="imgs/offers-3.png" alt="">
+                        <div class="discount"><span style="width: 0%;" data-text="20%"></span></div>
+                    </div>
+                    <div class="text">
+                        <div class="price">
+                            <span class="old">29.99$</span>
+                            <span class="new">23.99$</span>
+                        </div>
+                        <span data-text="Explore the vibrant open world landscapes of Mexico with limitless,
+                            fun driving action in the world's greatest cars.
+                            Join a thrilling game of chase with our new 5v1 Multiplayer Experience: Hide & Seek,
+                            Your Ultimate Horizon Adventure awaits!
+                            Explore the vibrant and ever-evolving open world landscapes of Mexico with limitless,
+                            fun driving action in hundreds of the world's greatest cars.">Forza
+                            Horizon 5</span>
+                    </div>
+                </div>
+                <div class="offer offer-4">
+                    <div class="image">
+                        <img src="imgs/offers-4.png" alt="">
+                        <div class="discount"><span style="width: 0%;" data-text="70%"></span></div>
+                    </div>
+                    <div class="text">
+                        <div class="price">
+                            <span class="old">17.99$</span>
+                            <span class="new">4.99$</span>
+                        </div>
+                        <span
+                            data-text="Operating directly under the National Command Authority,
+                        a relatively unknown entity of handpicked warriors are selected when it is crucial that a mission must not fail.
+                        They are the Tier 1 Operators. There are over 2 million active soldiers. Of those,
+                        approximately 50 thousand fall under the direct control of the Special Operations Command.
+                        The Tier 1 Operator functions on a level above and beyond even the most highly trained Special Operations Forces.">Medal
+                            Of Honor 2010</span>
+                    </div>
+                </div>
+                <div class="offer offer-5">
+                    <div class="image">
+                        <img src="imgs/offers-5.png" alt="">
+                        <div class="discount"><span style="width: 0%;" data-text="60%"></span></div>
+                    </div>
+                    <div class="text">
+                        <div class="price">
+                            <span class="old">19.99$</span>
+                            <span class="new">7.59$</span>
+                        </div>
+                        <span data-text="In the explosive finale to the Arkham series,
+                        Batman faces the ultimate threat against the city he is sworn to protect.
+                        The Scarecrow returns to unite an impressive roster of super villains,
+                        including Penguin, Two-Face and Harley Quinn.
+                        Which offers gamers the ultimate and complete Batman experience
+                        as they tear through the streets and soar across the skyline of the entirety of Gotham City.
+                        Be The Batman.">Batman: Arkham Knight</span>
+                    </div>
+                </div>
+                <div class="offer offer-6">
+                    <div class="image">
+                        <img src="imgs/offers-6.png" alt="">
+                        <div class="discount"><span style="width: 0%;" data-text="40%"></span></div>
+                    </div>
+                    <div class="text">
+                        <div class="price">
+                            <span class="old">499.99$</span>
+                            <span class="new">299.99$</span>
+                        </div>
+                        <span data-text="STGAubron Gaming PC Computer Desktop,
+                            Radeon RX 560 4G, Intel Core I7 8th up to 4.1GHz,
+                            16G DDR4, 512G SSD, 600M WiFi, BT 5.0,
+                            RGB Fan x2, Windows 11 Home,
+                            This Gaming PC Desktop is well-suited for a variety of tasks including gaming,
+                            study, home, business, photo and video editing,
+                            streaming, day trading, crypto trading, and so on">Your
+                            Own PC Collection</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Offers -->
+    <!-- Start Best Players Timeline -->
+    <div class="timeline" id="timeline">
+        <h2>Best Players</h2>
+        <div class="container">
+            <div class="big-line">
+                <div class="small-line line-01 right-text">
+                    <div class="image-container">
+                        <img src="imgs/player-01.jpg" alt="">
+                    </div>
+                    <div class="innerline-01"></div>
+                    <div class="year">
+                        <span>2021</span>
+                    </div>
+                    <div class="innerline-02"></div>
+                    <div class="text">
+                        <h3>Ahmed Mostafa<br><span>aka</span> Demon Slayer</h3>
+                        <p>Finished "Doom: Eternal" Within 32 Mins, Beating The World Record,
+                            Killed 2928 Demons & Got Platinum In The Game.
+                        </p>
+                    </div>
+                </div>
+                <div class="small-line line-02 left-text">
+                    <div class="image-container">
+                        <img src="imgs/player-02.jpg" alt="">
+                    </div>
+                    <div class="innerline-01"></div>
+                    <div class="year">
+                        <span>2022</span>
+                    </div>
+                    <div class="innerline-02"></div>
+                    <div class="text">
+                        <h3>Samy Ali<br><span>aka</span> Loyal Soldier</h3>
+                        <p>Earned 1,000,000 Points In "Medal Of Honor: Allied Assault" ,
+                            Became The 1st On LeaderBoard For 9 Months Stright.</p>
+                    </div>
+                </div>
+                <div class="small-line line-03 right-text">
+                    <div class="image-container">
+                        <img src="imgs/player-03.jpg" alt="">
+                    </div>
+                    <div class="innerline-01"></div>
+                    <div class="year">
+                        <span>2023</span>
+                    </div>
+                    <div class="innerline-02"></div>
+                    <div class="text">
+                        <h3>Shady Mohammed<br><span>aka</span> Nanomachines Son!</h3>
+                        <p>Finished "Metal Gear Rising: Revengeance" In Hard Difficulty Without Taking Any Damage,
+                            The First One Who Defeated Armstrong In 5 Mins.
+                        </p>
+                    </div>
+                </div>
+                <div class="small-line line-04 left-text">
+                    <div class="image-container">
+                        <img src="imgs/player-04.jpg" alt="">
+                    </div>
+                    <div class="innerline-01"></div>
+                    <div class="year">
+                        <span>2024</span>
+                    </div>
+                    <div class="innerline-02"></div>
+                    <div class="text">
+                        <h3>Fady Omar<br><span>aka</span> Most Wanted</h3>
+                        <p>Made 20 Barrel Roll In A Row In "Need For Speed: Payback",
+                            Played 1932 Race And Never Lost A One.
+                        </p>
+                    </div>
+                </div>
+                <div class="small-line line-05"></div>
+            </div>
+        </div>
+    </div>
+    <!-- End Best Players Timeline -->
+    <!-- Start Reviews -->
+    <div class="reviews" id="review">
+        <h2>Games Reviews</h2>
+        <div class="container">
+            <div class="opinion">
+                <div class="heading">
+                    <div class="text">
+                        <h3>Ahmed Ali</h3>
+                        <div class="rating">
+                            <i class="fa-solid fa-star solid"></i>
+                            <i class="fa-solid fa-star solid"></i>
+                            <i class="fa-solid fa-star solid"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="imgs/avatar-01.png" alt="">
+                    </div>
+                </div>
+                <p>On "FarCry 3": Far Cry 3 is a classic shooter at its core, but there are various RPG mechanics,
+                    skills
+                    and upgrades under the hood. It's a fabulous playing ground and one can but marvel at the wondrous
+                    ways the various elements interact with each other. </p>
+            </div>
+            <div class="opinion">
+                <div class="heading">
+                    <div class="text">
+                        <h3>Marwan Ahmed</h3>
+                        <div class="rating">
+                            <i class="fa-solid fa-star solid"></i>
+                            <i class="fa-solid fa-star solid"></i>
+                            <i class="fa-solid fa-star solid"></i>
+                            <i class="fa-solid fa-star solid"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="imgs/avatar-02.png" alt="">
+                    </div>
+                </div>
+                <p>On "Astro Bot": 'Astro Bot' pleasantly surprised and impressed us from the first second. The little
+                    robot with its numerous options and gadgets is enormous and always amazes people at the console. The
+                    levels have been designed to be varied and detailed, with so many ideas to match.</p>
+            </div>
+            <div class="opinion">
+                <div class="heading">
+                    <div class="text">
+                        <h3>Mahmoud Mohamed</h3>
+                        <div class="rating">
+                            <i class="fa-solid fa-star solid"></i>
+                            <i class="fa-solid fa-star solid"></i>
+                            <i class="fa-solid fa-star solid"></i>
+                            <i class="fa-solid fa-star solid"></i>
+                            <i class="fa-solid fa-star solid"></i>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="imgs/avatar-03.png" alt="">
+                    </div>
+                </div>
+                <p>On The "Witcher 3: Wild Hunt": One of the best upgrades from generation 8 to 9. The graphics and art
+                    of the game are unparalleled. The gameplay and new camera in the next-gen update convey a much
+                    better feel. Many textures have been improved</p>
+            </div>
+            <div class="opinion">
+                <div class="heading">
+                    <div class="text">
+                        <h3>Adel Hany</h3>
+                        <div class="rating">
+                            <i class="fa-solid fa-star solid"></i>
+                            <i class="fa-solid fa-star solid"></i>
+                            <i class="fa-solid fa-star solid"></i>
+                            <i class="fa-solid fa-star solid"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="imgs/avatar-04.png" alt="">
+                    </div>
+                </div>
+                <p>On "Street Fighter 6": Street Fighter 6 delivers an excellent sequel full of online and offline
+                    content that retains the status of the franchise as the king of the fighting genre. It is certainly
+                    no small feat managing to not only reach but also surpass the already high bar of its predecessor.
+                </p>
+            </div>
+            <div class="opinion">
+                <div class="heading">
+                    <div class="text">
+                        <h3>Waled Radwan</h3>
+                        <div class="rating">
+                            <i class="fa-solid fa-star solid"></i>
+                            <i class="fa-solid fa-star solid"></i>
+                            <i class="fa-solid fa-star solid"></i>
+                            <i class="fa-solid fa-star solid"></i>
+                            <i class="fa-solid fa-star solid"></i>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="imgs/avatar-05.png" alt="">
+                    </div>
+                </div>
+                <p>On "Need For Speed: Hot Pursuit Remastered": We could praise riveting races, unforgiving opponents
+                    and spectacular destructibility - but all that
+                    was already present in the original game. So what does remaster bring to the table? The answer is
+                    “nothing”</p>
+            </div>
+            <div class="opinion">
+                <div class="heading">
+                    <div class="text">
+                        <h3>Kamal Eid</h3>
+                        <div class="rating">
+                            <i class="fa-solid fa-star solid"></i>
+                            <i class="fa-solid fa-star solid"></i>
+                            <i class="fa-solid fa-star solid"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="imgs/avatar-06.png" alt="">
+                    </div>
+                </div>
+                <p>on "Ninja Gaiden 2 Black": Ninja Gaiden 2 Black offers a comprehensive remake of Team Ninja's finest
+                    game,
+                    rendered in beautiful modern visuals. Combat is as bombastically brilliant as it ever was, though
+                    the awful camera will put off many of those new to the game.</p>
+            </div>
+        </div>
+    </div>
+    <!-- End Reviews -->
+    <!-- Start Our Features -->
+    <div class="features" id="features">
+        <h2>Our Features</h2>
+        <div class="container">
+            <div class="box">
+                <div class="image">
+                    <img src="imgs/feat-01.jpg" alt="">
+                </div>
+                <div class="text">
+                    <div class="heading">
+                        <h3>Gaming</h3>
+                        <div class="line"></div>
+                    </div>
+                    <p>Ability to find endless games to play freely and score hight points!</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="imgs/feat-02.jpg" alt="">
+                </div>
+                <div class="text">
+                    <div class="heading">
+                        <h3>Popularity</h3>
+                        <div class="line"></div>
+                    </div>
+                    <p>Creating your own lagecy, the more you achieve, the more you will be
+                        popular</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="imgs/feat-03.jpg" alt="">
+                </div>
+                <div class="text">
+                    <div class="heading">
+                        <h3>Accessories</h3>
+                        <div class="line"></div>
+                    </div>
+                    <p>Yes! not just games, you can buy the best tools to help you improve your gaming experience</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="imgs/feat-04.jpg" alt="">
+                </div>
+                <div class="text">
+                    <div class="heading">
+                        <h3>Devices</h3>
+                        <div class="line"></div>
+                    </div>
+                    <p>The best gamer deserves a great device, appreciate your self by buying the best devices</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="imgs/feat-05.jpg" alt="">
+                </div>
+                <div class="text">
+                    <div class="heading">
+                        <h3>Subscriptions</h3>
+                        <div class="line"></div>
+                    </div>
+                    <p>The official games have wierd prices, so we decided to be better that them and give you discounts!</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="imgs/feat-06.jpg" alt="">
+                </div>
+                <div class="text">
+                    <div class="heading">
+                        <h3>Custom</h3>
+                        <div class="line"></div>
+                    </div>
+                    <p>You can buy the best suits and weapons to your favourite game to crush your enemies skulls!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Our Features -->
+    <!-- Start Contact Us -->
+    <div class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <div class="container">
+            <form action="">
+                <div class="info">
+                    <input type="text" name="username" placeholder="Your Name">
+                    <input type="number" name="phone" placeholder="Your Phone">
+                    <input type="email" name="mail" placeholder="Your Email" id="">
+                    <input type="text" name="subject" placeholder="Subject">
+                </div>
+                <div class="send">
+                    <textarea name="message" placeholder="Your Message" id=""></textarea>
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- End Contact Us -->
+    <!-- Start Footer -->
+    <div class="footer">
+        <p>Created With <i class="fa-solid fa-heart"></i> By Mohammed, Inspired By Osama Elzero.</p>
+    </div>
+    <!-- End Footer -->
+    <!-- End Scroll To Top Button -->
+    <div class="btn">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+    <!-- Start Scroll To Top Button -->
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+    <div class="popup-overlay"></div>
+    <div class="popup-box"></div>
+</body>
+
+</html>
