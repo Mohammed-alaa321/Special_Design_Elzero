@@ -99,7 +99,7 @@ function changeBackground() {
         if (num === imgs.length) {
             num = 0;
         }
-        landing.style.cssText = "background-image: url(E:/Special_Template/imgs/" + imgs[num] + ");";
+        landing.style.cssText = "background-image: url(../imgs" + imgs[num] + ");";
         localStorage.setItem("currentbackground", imgs[num]);
         localStorage.setItem("backgroundIndex", num);
         num++;
@@ -113,7 +113,7 @@ if (!(backgroundCircle.classList.contains("no-change"))) {
 // Check If There Was Previous Background
 if (localStorage.getItem("currentbackground") !== null) {
     // Set The Background To It
-    landing.style.cssText = "background-image: url(E:/Special_Template/imgs/" + localStorage.getItem("currentbackground") + ")";
+    landing.style.cssText = "background-image: url(../imgs/" + localStorage.getItem("currentbackground") + ")";
 }
 // End Background Change
 
