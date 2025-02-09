@@ -99,7 +99,7 @@ function changeBackground() {
         if (num === imgs.length) {
             num = 0;
         }
-        landing.style.cssText = "background-image: url(../imgs" + imgs[num] + ");";
+        landing.style.cssText = "background-image: url(../imgs/" + imgs[num] + ");";
         localStorage.setItem("currentbackground", imgs[num]);
         localStorage.setItem("backgroundIndex", num);
         num++;
