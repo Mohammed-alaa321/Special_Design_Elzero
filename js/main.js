@@ -113,7 +113,7 @@ if (!(backgroundCircle.classList.contains("no-change"))) {
 // Check If There Was Previous Background
 if (localStorage.getItem("currentbackground") !== null) {
     // Set The Background To It
-    landing.style.cssText = "background-image: url(../imgs/" + localStorage.getItem("currentbackground") + ")";
+    landing.style.cssText = "background-image: url(/Special_Design_Elzero/imgs/" + localStorage.getItem("currentbackground") + ")";
 }
 // End Background Change
 
